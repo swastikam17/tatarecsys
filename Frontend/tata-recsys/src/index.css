@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #141414;
+}
+
+select option {
+  background: #1e1e1e;
+  color: #d2d2d2;
+  font-family: 'Poppins', sans-serif;
+  padding: 10px;
+}
+
+select {
+  cursor: pointer;
+}
+
+select:focus {
+  border-color: rgba(255,255,255,0.25) !important;
+  outline: none;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
+
+input:focus {
+  border-color: rgba(255,255,255,0.25) !important;
+  outline: none;
+}

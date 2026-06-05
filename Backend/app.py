@@ -5,7 +5,7 @@ import pandas as pd
 import numpy as np
 
 app = Flask(__name__)
-CORS(app, origins=["*"])
+CORS(app, origins=["https://tatarecsys.onrender.com"])
 
 # ── Load all pickle files ──────────────────────────────────────────
 df               = pickle.load(open('products.pkl', 'rb'))
